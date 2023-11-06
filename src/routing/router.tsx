@@ -3,7 +3,6 @@ import PageRoot from "../pages/pageRoot";
 import App from "../App";
 import PageError from "../pages/pageError";
 
-import PageReverberi from "../pages/pageReverberi";
 import PageHamid from "../pages/pageHamid";
 
 import PageTaouaf from "../pages/pageTaouaf";
