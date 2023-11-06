@@ -1,5 +1,12 @@
+import LogoGabancho from "../components/gabanchocarrion/Logo";
+
 const PageGabancho = () => {
-    return <div>Gianpaolo Gabancho Carrion</div>;
+    return (
+    <div>
+        <p>Gianpaolo Gabancho Carrion</p>
+        <LogoGabancho/>
+        </div>
+    );
   };
   
   export default PageGabancho;
