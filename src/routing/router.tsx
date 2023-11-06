@@ -7,6 +7,7 @@ import PageReverberi from "../pages/pageReverberi";
 import PageHamid from "../pages/pageHamid";
 
 import PageTaouaf from "../pages/pageTaouaf";
+import PageGabancho from "../pages/pageGabancho";
 
 
 export const router = createBrowserRouter([
@@ -29,6 +30,10 @@ export const router = createBrowserRouter([
         path: "hamid",
         element: <PageHamid />,
       },
+      {
+        path: "gabancho",
+        element: <PageGabancho/>
+      }
     ],
   },
 ]);
